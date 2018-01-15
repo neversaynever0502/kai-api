@@ -1,4 +1,4 @@
-## [0.1.8] release
+## [0.1.9] release
 Online Api - Now you can use the test-api online, Not only use in localhost by use ngrok automatically.
 
 ## quickly start
@@ -10,7 +10,7 @@ var apiTestServer = require('kai-api');
 apiTestServer(5151)
 ```
 
-Now when you use http://localhost:5151/ , you will get it.
+Now when you use http://localhost:5151/ or NGROK_ONLINE_URL , you will get it.
 
 [GET] http://localhost:5151/
 
