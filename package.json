@@ -17,6 +17,10 @@
     "ngrok",
     "openurl"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neversaynever0502/kai-api.git"
+  },
   "author": "Kai",
   "license": "ISC",
   "dependencies": {
