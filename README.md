@@ -1,5 +1,11 @@
-## [0.1.9] release
+## [0.2.2] release
 Online Api - Now you can use the test-api online, Not only use in localhost by use ngrok automatically.
+
+
+## Installation
+
+`npm install kai-api --save`
+
 
 ## quickly start
 

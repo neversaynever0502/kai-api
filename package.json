@@ -1,6 +1,6 @@
 {
   "name": "kai-api",
-  "version": "0.1.9",
+  "version": "0.2.2",
   "description": "For front-end to test or practice CRUD api in localhost.",
   "main": "index.js",
   "scripts": {
