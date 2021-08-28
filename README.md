@@ -1,5 +1,7 @@
-## [0.2.2] release
+## [0.3.1] release
 Online Api - Now you can use the test-api online, Not only use in localhost by use ngrok automatically.
+
+Fix - use new ngrok version 4.1.0
 
 
 ## Installation

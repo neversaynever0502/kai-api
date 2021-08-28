@@ -1,6 +1,6 @@
 {
   "name": "kai-api",
-  "version": "0.2.2",
+  "version": "0.3.1",
   "description": "For front-end to test or practice CRUD api in localhost.",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
     "chalk": "2.3.0",
     "cors": "2.8.4",
     "express": "4.16.2",
-    "ngrok": "2.2.24",
+    "ngrok": "^4.1.0",
     "openurl": "1.1.1"
   }
 }

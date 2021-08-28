@@ -47,12 +47,26 @@ module.exports = function (port, jsonData) {
 
     app.use('/', router);
 
-    app.listen(port, function () {
+    app.listen(port, async function () {
         console.log(("Server now listen on:" + chalk.green(" http://localhost:" + port)))
-        ngrok.connect(port, function (err, url) {
-            console.log('online URL: ', chalk.blue(url))
-            require("openurl").open(url)
-        });
+        let ngrokUrl = await ngrok.connect(port)
+        if(ngrokUrl){
+            console.log('online URL: ', chalk.blue(ngrokUrl))
+            require("openurl").open(ngrokUrl)
+        }else{
+            console.log('Ngrok not return url.')
+        }
+            // function (err, url) {
+        //     if(err){
+        //         console.log(err)
+        //     }
+        //     if(url){
+        //         console.log('online URL: ', chalk.blue(url))
+        //         require("openurl").open(url)
+        //     }else{
+        //         console.log('Ngrok not return url.')
+        //     }
+        // });
     });
 
 }
